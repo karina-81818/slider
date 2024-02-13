@@ -1,0 +1,142 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 620px;
+height: 552px;
+top: 100px;
+left: 490px;
+gap: 32px;
+
+}
+
+
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 400px;
+height: 390px;
+padding: 40px, 30px, 40px, 30px;
+border-radius: 30px;
+border: 1px;
+gap: 30px;
+background: linear-gradient(225deg, rgba(146, 213, 241, 0.01) 0%, rgba(146, 213, 241, 0.1) 100%),
+linear-gradient(0deg, #88B3D2, #88B3D2);
+border: 1px solid #88B3D2;
+box-shadow: 4px 6px 16px 0px #92D5F114;
+
+
+  
+}
+.dots-container{
+  display: flex;
+  align-items:center;
+  width: Fixed (620px);
+height: Hug (50px);
+gap: 20px;
+border: 1px solid;
+
+}
+
+.active {
+  display: inline-block;
+}
+
+.inactive {
+  display: none;
+}
+
+.slides {
+  height: 140px;
+  width: 140px;
+ 
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+ border-radius: 50%;
+ 
+ 
+}
+
+
+
+.prev, .next {
+ margin: 10px;
+  width: 50px;
+height: 50px;
+padding: 15px;
+border-radius: 40px;
+border: 0px, 1px, 1px, 0.1px;
+gap: 10px;
+background: #92D5F1;
+border-width: 0px, 1px, 1px, 0.1px;
+
+border-style: solid;
+
+border-color: #92D5F1;
+
+
+
+}
+
+/*.slider-container:hover .prev,.slider-container:hover .next {
+  color: black
+}
+
+.slider-container:hover .prev:hover,
+.slider-container:hover .next:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s ease-in;
+}*/
+
+
+
+.all-dots {
+  
+  
+  display: flex;
+  
+  justify-content: center;
+  z-index: 200;
+  width: 464px;
+height: Hug (2px);
+gap: 20px;
+
+
+border-radius: 20px;
+
+
+}
+
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 25px;
+  margin: 0px 3px;
+  /*background-color: transparent;*/
+  
+  background-color: #92D5F1;
+  display: inline-block;
+}
+
+.slider-container:hover .dot:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.active-dot {
+  background-color: rgba(255, 255, 255, 0.5);
+} 
+
+.slider-container:hover .dot{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.slider-container:hover .active-dot{
+  background-color: rgba(255, 255, 255, 0.5);
+}
